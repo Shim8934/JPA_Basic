@@ -18,7 +18,9 @@
             <property name="hibernate.use_sql_comments" value="true" />
             <property name="hibernate.id.new_generator_mappings" value="true" />
 
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <!-- create / create-drop / update / validate  -->
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+
         </properties>
     </persistence-unit>
 
